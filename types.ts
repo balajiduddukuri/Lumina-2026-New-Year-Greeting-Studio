@@ -13,6 +13,12 @@ export enum Tone {
   Reflective = 'Deeply Reflective & Mindful'
 }
 
+export enum Theme {
+  Light = 'Light',
+  Dark = 'Dark',
+  Neon = 'Neon'
+}
+
 export interface GreetingItem {
   text: string;
   context: string; // e.g. "Poetic Couplet", "Professional Toast"

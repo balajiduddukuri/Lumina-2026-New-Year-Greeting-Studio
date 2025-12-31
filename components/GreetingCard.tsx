@@ -116,7 +116,7 @@ const GreetingCard: React.FC<GreetingCardProps> = ({ content, context, index, th
       ctx.font = 'bold 18px "Inter", sans-serif';
       ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
       ctx.letterSpacing = "4px";
-      ctx.fillText('LUMINA STUDIO • 2026', 512, 940);
+      ctx.fillText('LUMINA STUDIO • BY BALAJIDUDDUKURI • 2026', 512, 940);
 
       const link = document.createElement('a');
       link.download = `lumina-2026-greeting-${index}.png`;
